@@ -7,24 +7,13 @@ Steps to implement contnous integration with Maven project and Junit in Jenkins-
 1. Create a Jenkins Project-
 $ mvn archetype:generate -DgroupId=jenkinsDemo -DartifactId=jenkinsDemo -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
-2. Add the below dependency in pom.xml file-
-
-<dependency>
-<groupId>junit</groupId>
-<artifactId>junit</artifactId>
-<version>4.12</version>
-</dependency>
-<dependency>
-<groupId>org.seleniumhq.selenium</groupId>
-<artifactId>selenium-java</artifactId>
-<version>3.10.0</version>
-</dependency>
+2. Add the dependency in pom.xml file as per pom file in this Github repo.
 
 3. Delete the src/main folder using the commands given below:
 $ cd /home/labsuser/jenkinsDemo/src
 $ rm -r main
 
-4. Considering you are in the src folder, navigate to src/test/java, and create a file JenkinsDemo.java using the following commands with the code in Git repo:
+4. Considering you are in the src folder, navigate to src/test/java, and create a file JenkinsDemo.java using the following commands with the code in this Github repo:
 $ cd /home/labsuser/jenkinsDemo/src/test/java
 $ vi JenkinsDemo.java
 
