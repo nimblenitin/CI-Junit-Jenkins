@@ -1,6 +1,6 @@
 # CI-Junit-Jenkins
 
-Steps to implement contnous integration with Maven project and Junit in Jenkins-
+Steps to implement continous integration with Maven project and Junit in Jenkins-
 
 ```
 
